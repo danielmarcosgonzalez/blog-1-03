@@ -1,6 +1,5 @@
 import { FreshContext, Handlers, PageProps } from "$fresh/server.ts";
-import {Post} from "../types.ts";
-import PostModel from "../db/Posts.ts";
+import PostModel from "../../db/Posts.ts";
 
 type Data={
     id?:string,
